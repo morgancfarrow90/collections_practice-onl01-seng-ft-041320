@@ -46,5 +46,5 @@ def reverse_array(array)
   array.reverse
 end
 
-reverse_each(myarray)
+reverse_array(myarray)
 
