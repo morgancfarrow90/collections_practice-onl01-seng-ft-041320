@@ -49,6 +49,7 @@ end
 reverse_array(myarray)
 
 def kesha_maker(array)
+  new array = []
   array.each do |string|
     
 
