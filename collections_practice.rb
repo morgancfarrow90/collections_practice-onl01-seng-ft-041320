@@ -43,7 +43,7 @@ def swap_elements(array)
 swap_elements(myarray)
 
 def reverse_array(array)
-  array.reverse_each.to_a
+  array.reverse
 end
 
 reverse_each(myarray)
