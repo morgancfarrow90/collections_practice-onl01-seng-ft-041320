@@ -58,13 +58,4 @@ end
 new_array
 end
 
-    def kesha_maker(array)
-  kesha = []
-  array.each do |word|
-    word_array = word.split ""
-    word_array[2] = "$"
-    kesha << word_array.join
-  end
-  kesha
-end
 
