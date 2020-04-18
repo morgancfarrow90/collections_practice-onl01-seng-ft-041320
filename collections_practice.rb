@@ -51,6 +51,6 @@ reverse_array(myarray)
 def kesha_maker(array)
   new_array = []
   array.each do |string|
-    new_array << string.split(//)
+    new_array << {string.split(//)} {
     
 
