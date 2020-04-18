@@ -46,4 +46,9 @@ def swap_elements(array)
   end
 end
 
-sway_elements(myarray)
+def swap_elements(myarray)
+  swap(a,b)
+         self[a], self[b] = self[b], self[a]
+    self
+    end
+end
