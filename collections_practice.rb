@@ -59,5 +59,8 @@ new_array
 end
 
 def find_a(array)
-  
+  array.each do |word|
+    if word.start_with?("a")
+      put #{word}
+    end
 
