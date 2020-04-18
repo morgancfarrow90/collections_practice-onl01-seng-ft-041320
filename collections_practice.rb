@@ -64,4 +64,5 @@ def find_a(array)
      return #{word}
     else nil 
     end
+  end
 
