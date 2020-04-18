@@ -64,5 +64,5 @@ end
 
 def sum_array
   array.inject(:+)
-end
+end 
 
