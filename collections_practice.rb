@@ -44,4 +44,7 @@ swap_elements(myarray)
 
 def reverse_array(array)
   array.reverse_each.to_a
+end
+
+reverse_each(myarray)
 
