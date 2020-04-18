@@ -59,11 +59,6 @@ new_array
 end
 
 def find_a(array)
-  new_array = []
-  array.each do |word|
-  new_array << if word.start_with?("a") return word
-  end
-  new_array
-end
+  array.select{|string| string.start_with?("a")}
 end
 
