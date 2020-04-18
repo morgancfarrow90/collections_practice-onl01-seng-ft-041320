@@ -51,6 +51,20 @@ reverse_array(myarray)
 def kesha_maker(array)
   new_array = []
   array.each do |string|
-    new_array << string.split(//)
-    
+  string_array = string.split ""
+  string_array[2] = "$"
+  new_array << string_array.join
+end
+new_array
+end
+
+    def kesha_maker(array)
+  kesha = []
+  array.each do |word|
+    word_array = word.split ""
+    word_array[2] = "$"
+    kesha << word_array.join
+  end
+  kesha
+end
 
