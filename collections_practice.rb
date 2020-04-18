@@ -47,7 +47,7 @@ def swap_elements(array)
 end
 
 def swap_elements(myarray)
-  swap(a,b)
+  array.swap do 
          self[a], self[b] = self[b], self[a]
     self
     end
