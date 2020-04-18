@@ -37,4 +37,5 @@ end
 sort_array_char_count(strings)
 
 def swap_elements(array)
-  
+  array.sort do |a, b|
+    if array.index[] == 1 
