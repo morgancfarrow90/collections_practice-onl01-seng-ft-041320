@@ -37,18 +37,4 @@ end
 sort_array_char_count(strings)
 
 def swap_elements(array)
-  swap_elements_from_to(array, index, destination_index)
-    if index == 1 
-      index + 1 
-    elsif index == 2 
-      index - 1 
-    end
-  end
-end
-
-def swap_elements(myarray)
-  array.swap do 
-         self[a], self[b] = self[b], self[a]
-    self
-    end
-end
+  array
