@@ -65,4 +65,5 @@ def find_a(array)
     else nil 
     end
   end
+end
 
