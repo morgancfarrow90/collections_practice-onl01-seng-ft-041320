@@ -42,5 +42,6 @@ def swap_elements(array)
 
 swap_elements(myarray)
 
-
+def reverse_array(array)
+  reverse_array
 
