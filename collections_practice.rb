@@ -44,4 +44,6 @@ def swap_elements(array)
       index - 1 
     end
   end
+end
 
+sway_elements(myarray)
